@@ -30,7 +30,7 @@ question(fries);
 question(shakes);
 
 // output their order
-
+document.write("<h2>You order:"+"</h2>");
 for(j=0;j<order.length;j++){
-  document.write("<p>You ordered: " + order[j] + "<p>");
+  document.write("<p>" +order[j] + "</p>");
 }
